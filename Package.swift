@@ -42,7 +42,7 @@ let package = Package(
         .library(name: "NIOHTTPCompression", targets: ["NIOHTTPCompression"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/val-verde/swift-nio.git", .branch("val-verde-mainline")),
+        .package(url: "https://github.com/val-verde/swift-nio.git", .branch("val-verde-mainline-next")),
     ],
     targets: targets
 )
